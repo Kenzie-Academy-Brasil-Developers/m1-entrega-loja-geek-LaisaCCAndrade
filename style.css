@@ -1,0 +1,150 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    box-shadow: 2px 2px 2px #acaaab;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+figure{
+    height: 100%;
+}
+
+.logo{
+    height: 100%;
+    width: 200px;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button1{
+    background-color: #0a99fe;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.button2{
+    background-color: #0a99fe;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    opacity: 50%;
+    margin-left: 25px;
+}
+
+.produtos{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    margin: 60px;
+}
+
+.titulo1{
+    color: #1b1b1b;
+    font-size: 20px;
+    margin: 20px 80px 20px 0;
+}
+
+.valores{
+    color: #868383;;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+*{
+    scrollbar-width: thin;
+    scrollbar-color: #6e6e6e #141414; 
+}
+
+*::-webkit-scrollbar {
+    width: 1px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #6e6e6e;
+    border-radius: 10px; 
+}
+
+.pinturas{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    overflow-x: auto;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.quadros{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    overflow-x: auto;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.imagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 207px;
+    min-height: 275px;
+    background-color: #cecdcd;
+    border-radius: 8px;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-height: 120px;
+    width: 100%;
+    background-color: #cecdcd;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+li > figure > img {
+    max-width: 160px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 8px;
+}
